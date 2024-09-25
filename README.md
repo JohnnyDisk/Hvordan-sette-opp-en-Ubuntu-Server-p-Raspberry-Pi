@@ -13,3 +13,7 @@ Også velger du en valgfri tidssone.
 Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord.
 
 ## MariaDB Instalasjon og setup
+Vi begynner med å oppdatere systemet i tilfelle det er noen filer datamaskinen mangler.
+```system
+sudo apt update
+```
