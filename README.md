@@ -11,8 +11,8 @@ Start med å velge valgfritt språk til Ubuntu maskinen. (se Referanse_Bilde_2.p
 
 Deretter velg et valgfri Keyboard layout. (se Referanse_Bilde_3.png for extra detalje)
 
-
 Også velger du en valgfri tidssone. (se Referanse_Bilde_4.png for extra detalje)
+
 Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord. (se Referanse_Bilde_5.png for extra detalje)
 
 ## MariaDB Installasjon og setup
