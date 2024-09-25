@@ -30,7 +30,7 @@ Denne kommandoen vil sikre MariaDB:
 sudo mysql_secure_installation
 ```
 Enter current password for root (enter for none):
-Skriv in Y
+Skriv in ```Y```
 Switch to unix_socket authentication [Y/N]
 Skrv in Y
 Change the root password? [Y/N]
