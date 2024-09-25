@@ -46,4 +46,10 @@ Deretter kjører vi denne kommandoen for å avslutte MariaDB-sesjonen og tar deg
 ```system
 EXIT;
 ```
+##Kjør MariaDB automatisk ved oppstart
+Denne kommandoen vil forsikre seg at MariaDB kjører automatisk ved oppstart:
+```system
+sudo systemctl enable mariadb
+```
+
 
