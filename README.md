@@ -13,7 +13,7 @@ Også velger du en valgfri tidssone.
 Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord.
 
 ## MariaDB Instalasjon og setup
-Vi begynner med å oppdatere og opgradere systemet i tilfelle det er noen filer datamaskinen mangler.
+Vi begynner med å oppdatere og opgradere systemet i tilfelle det er noen filer datamaskinen mangler:
 ```system
 sudo apt update
 ```
@@ -21,12 +21,29 @@ sudo apt update
 sudo apt update
 ```
 
-Så laster vi ned mariadb serveren
+Så laster vi ned mariadb serveren:
 ```system
 sudo apt install mariadb-server
 ```
 
-Deretter kjører vi MariaDB
+Deretter kjører vi MariaDB:
 ```system
 sudo mariadb -u server
 ```
+Videre så lager vi en bruker til MariaDB. Brukernavnet og passordet er valgfritt:
+```system
+CREATE USER 'brukernavn'@'localhost' IDENTIFIED BY 'passord';
+```
+Deretter gir vi denne brukeren full makt:
+```system
+GRANT ALL PRIVILEGES ON *.* TO 'brukernavn'@'localhost';
+```
+Etter at du har tildelt privilegier til bruken, kjører du denne kommandoen for å sikre at MariaDB oppdaterer rettighetene umiddelbart:
+```system
+FLUSH PRIVILEGES;
+```
+Deretter kjører vi denne kommandoen for å avslutte MariaDB-sesjonen og tar deg tilbake til terminalen:
+```system
+EXIT;
+```
+
