@@ -29,20 +29,20 @@ Denne kommandoen vil sikre MariaDB:
 ```system
 sudo mysql_secure_installation
 ```
-Enter current password for root (enter for none):
+```Enter current password for root (enter for none):```
 Skriv in ```Y```
-Switch to unix_socket authentication [Y/N]
-Skrv in Y
-Change the root password? [Y/N]
-skriv in N
-Remove anonymous users? [Y/N]
-skriv in Y
-Disallow root login remotely? [Y/N]
-Skrv in Y
-Remove test database and access to it? [Y/N]
-Skriv in Y
-Reload priviliege tables now? [Y/N]
-Skriv in Y
+```Switch to unix_socket authentication [Y/N]```
+Skrv in ```Y```
+```Change the root password? [Y/N]```
+skriv in ```N```
+```Remove anonymous users? [Y/N]```
+skriv in ```Y```
+```Disallow root login remotely? [Y/N]```
+Skrv in ```Y```
+```Remove test database and access to it? [Y/N]```
+Skriv in ```Y```
+```Reload priviliege tables now? [Y/N]```
+Skriv in ```Y```
 
 
 
