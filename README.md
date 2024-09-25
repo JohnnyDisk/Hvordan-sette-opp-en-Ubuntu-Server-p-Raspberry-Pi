@@ -6,4 +6,10 @@ Start med å laste ned en Raspberry Pi imager. Plugg inn SD kortet ditt inn i da
 Her velger du hvilken modell av raspberry pi du har, hvilket operativt system du vil bruke (i dette tilfelle ubuntu) og så velger du fil plaseringen til SD kortet ditt.
 Når denne installasjonen er ferdig, plugger du SD kortet ditt in i raspberry pien din og starter å kjøre den.
 
-## Ubuntu Setup
+## Ubuntu setup
+Start med å velge valgfritt språk til Ubuntu maskinen.
+Deretter velg et valgfri Keyboard layout.
+Også velger du en valgfri tidssone.
+Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord.
+
+## MariaDB Instalasjon og setup
