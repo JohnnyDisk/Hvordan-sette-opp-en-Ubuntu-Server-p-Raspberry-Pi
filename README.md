@@ -8,7 +8,10 @@ Når denne installasjonen er ferdig, plugger du SD kortet ditt in i raspberry pi
 
 ## Ubuntu setup
 Start med å velge valgfritt språk til Ubuntu maskinen. (se Referanse_Bilde_2.png for extra detalje)
+
 Deretter velg et valgfri Keyboard layout. (se Referanse_Bilde_3.png for extra detalje)
+
+
 Også velger du en valgfri tidssone. (se Referanse_Bilde_4.png for extra detalje)
 Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord. (se Referanse_Bilde_5.png for extra detalje)
 
