@@ -13,7 +13,20 @@ Også velger du en valgfri tidssone.
 Deretter skriver du in navnet ditt, velger et valgfritt brukernavn og velger et valgfritt passord.
 
 ## MariaDB Instalasjon og setup
-Vi begynner med å oppdatere systemet i tilfelle det er noen filer datamaskinen mangler.
+Vi begynner med å oppdatere og opgradere systemet i tilfelle det er noen filer datamaskinen mangler.
 ```system
 sudo apt update
+```
+```system
+sudo apt update
+```
+
+Så laster vi ned mariadb serveren
+```system
+sudo apt install mariadb-server
+```
+
+Deretter kjører vi MariaDB
+```system
+sudo mariadb -u server
 ```
