@@ -76,4 +76,44 @@ Deretter kjører vi denne kommandoen for å avslutte MariaDB-sesjonen og tar deg
 EXIT;
 ```
 
+## SSH setup
+
+Vi må starte med å åpne brannmuren.
+Instaler ufw for å åpne brannmuren:
+```system
+sudo apt install ufw
+```
+Så aktiverer vi ufw:
+```system
+sudo ufw enable
+```
+tilater SSH:
+```system
+sudo ufw allow ssh
+```
+Også laster vi ned SSH serveren:
+```system
+sudo apt install openssh-server
+```
+Deretter forsikrer vi oss at SSH serveren kjører ved oppstart:
+```system
+sudo systemctl enable ssh
+```
+Også starter vi SSH serveren.
+```system
+sudo systemctl start ssh
+```
+
+
+
+## Andre anbefale programmer å instalere:
+
+Instalering av Python3 med pip:
+```system
+sudo apt install python3-pip
+```
+Instalering av Git:
+```system
+sudo apt install git
+```
 
