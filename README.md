@@ -117,3 +117,15 @@ Instalering av Git:
 sudo apt install git
 ```
 
+## Hvordan koble til SSH serveren fra en ekstern PC
+
+start med å kjøre denne kommandoen på Ubuntu serveren:
+```system
+hostname -I | awk '{print $1}'
+```
+deretter skriver du in dette på den eksterne PCen:
+```system
+SSH brukernavn@din_ip
+```
+
+
