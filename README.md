@@ -25,6 +25,26 @@ Så laster vi ned mariadb serveren:
 ```system
 sudo apt install mariadb-server
 ```
+Denne kommandoen vil sikre MariaDB:
+```system
+sudo mysql_secure_installation
+```
+Enter current password for root (enter for none):
+Skriv in Y
+Switch to unix_socket authentication [Y/N]
+Skrv in Y
+Change the root password? [Y/N]
+skriv in N
+Remove anonymous users? [Y/N]
+skriv in Y
+Disallow root login remotely? [Y/N]
+Skrv in Y
+Remove test database and access to it? [Y/N]
+Skriv in Y
+Reload priviliege tables now? [Y/N]
+Skriv in Y
+
+
 
 Deretter kjører vi MariaDB:
 ```system
@@ -45,11 +65,6 @@ FLUSH PRIVILEGES;
 Deretter kjører vi denne kommandoen for å avslutte MariaDB-sesjonen og tar deg tilbake til terminalen:
 ```system
 EXIT;
-```
-## Kjør MariaDB automatisk ved oppstart
-Denne kommandoen vil forsikre seg at MariaDB kjører automatisk ved oppstart:
-```system
-sudo systemctl enable mariadb
 ```
 
 
